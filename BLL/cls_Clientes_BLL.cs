@@ -11,7 +11,7 @@ namespace BLL
     public class cls_Clientes_BLL
     {
         #region VARIABLE PRIVADA
-        private cls_Clientes_DAL Obj_Clientes_DAL = new cls_Clientes_DAL();
+        public cls_Clientes_DAL Obj_Clientes_DAL = new cls_Clientes_DAL();
         #endregion
 
         #region MÉTODOS

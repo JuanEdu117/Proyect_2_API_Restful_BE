@@ -11,7 +11,7 @@ namespace BLL
     public class cls_Mantenimiento_BLL
     {
         #region VARIABLE PRIVADA
-        private cls_Mantenimiento_DAL Obj_Mantenimiento_DAL = new cls_Mantenimiento_DAL();
+        public cls_Mantenimiento_DAL Obj_Mantenimiento_DAL = new cls_Mantenimiento_DAL();
         #endregion
 
         #region MÉTODOS
