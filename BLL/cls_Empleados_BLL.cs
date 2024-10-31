@@ -11,7 +11,7 @@ namespace BLL
     public class cls_Empleados_BLL
     {
         #region VARIABLE PRIVADA
-        public cls_Empleados_DAL Obj_Empleados_DAL = new cls_Empleados_DAL();
+        private cls_Empleados_DAL Obj_Empleados_DAL = new cls_Empleados_DAL();
         #endregion
 
         #region MÉTODOS
