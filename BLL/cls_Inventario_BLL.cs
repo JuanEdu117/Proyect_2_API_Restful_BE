@@ -11,7 +11,7 @@ namespace BLL
     public class cls_Inventario_BLL
     {
         #region VARIABLE PRIVADA
-        public cls_Inventario_DAL Obj_Inventario_DAL = new cls_Inventario_DAL();
+        private cls_Inventario_DAL Obj_Inventario_DAL = new cls_Inventario_DAL();
         #endregion
 
         #region MÉTODOS
