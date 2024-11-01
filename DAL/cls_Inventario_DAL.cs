@@ -11,8 +11,12 @@ namespace DAL
     {
         #region VARIABLE PRIVADA   
         private static List<cls_Inventario> _lstInventario = new List<cls_Inventario>
-        { new cls_Inventario { IdInventario = 1, Descripcion = "Mediana", TipoMaquina = "Shindaiwa", HorasActuales = 1, 
-            HorasMaximas = 1000, HorasMantenimiento = 100}
+        { new cls_Inventario {  IdInventario = 1, 
+                                Descripcion = "Mediana", 
+                                TipoMaquina = "Shindaiwa", 
+                                HorasActuales = 1, 
+                                HorasMaximas = 1000, 
+                                HorasMantenimiento = 100}
         };
         #endregion
         #region MÉTODOS EMPLEADOS
